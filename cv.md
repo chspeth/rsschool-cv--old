@@ -25,3 +25,15 @@ function check(a, x) {
   return a.includes(x) ? true : false;
 }
 ```
+
+### Education
+* HtmlAcademy:
+    + HTML & CSS
+        - [Professional Website Coding](https://drive.google.com/file/d/1_Jw03-owwEaIGT6AIAVKKeYJE7YehkXg/view?usp=sharing)
+        - [Adaptive Website Coding and Automatization](https://drive.google.com/file/d/1mMgMyGl1JfDCPuzZ9yuDmx-n8Y6_WCmE/view?usp=sharing)
+    + [JavaScript. Professional Development of Web Interfaces](https://drive.google.com/file/d/1UYMALDD2NSbz1fKPFsbnBo-QOxuKh-UW/view?usp=sharing)
+
+### Projects
+* [My first project](https://github.com/chspeth/605741-device-32). Online store of devices with two pages. Available for watching it on github pages. You'll find the second page in the Catalog > Selfie monopods.
+* [The second website](https://github.com/chspeth/605741-cat-energy-24). Multi-page website, adaptive for phones and tablets. Not finished yet.
+* [The third and my favorite](https://github.com/chspeth/605741-keksobooking-25). Concentrated mostly on JavaScript to get all the forms and filters working. Available on github pages.
