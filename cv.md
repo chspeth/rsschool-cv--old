@@ -16,3 +16,12 @@ I think I can't live without new information to keep my brain fit. That's why I 
 * JavaScript
 * Less
 * Git, GitHub
+
+### Code example
+> You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.<br>Array can contain numbers or strings. X can be either.<br>Return true if the array contains the value, false if not.
+
+```
+function check(a, x) {
+  return a.includes(x) ? true : false;
+}
+```
