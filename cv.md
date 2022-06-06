@@ -37,3 +37,7 @@ function check(a, x) {
 * [My first project](https://github.com/chspeth/605741-device-32). Online store of devices with two pages. Available for watching it on github pages. You'll find the second page in the Catalog > Selfie monopods.
 * [The second website](https://github.com/chspeth/605741-cat-energy-24). Multi-page website, adaptive for phones and tablets. Not finished yet.
 * [The third and my favorite](https://github.com/chspeth/605741-keksobooking-25). Concentrated mostly on JavaScript to get all the forms and filters working. Available on github pages.
+
+### Languages
+* **Russian** native
+* **English** intermediate. I'm taking classes to improve my skills also. 
