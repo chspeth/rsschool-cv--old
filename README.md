@@ -1,1 +1,2 @@
-https://chspeth.github.io/rsschool-cv/cv
+https://chspeth.github.io/rsschool-cv/
+
