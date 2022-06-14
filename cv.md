@@ -31,7 +31,7 @@ function check(a, x) {
     + HTML & CSS
         - [Professional Website Coding](https://drive.google.com/file/d/1_Jw03-owwEaIGT6AIAVKKeYJE7YehkXg/view?usp=sharing)
         - [Adaptive Website Coding and Automatization](https://drive.google.com/file/d/1mMgMyGl1JfDCPuzZ9yuDmx-n8Y6_WCmE/view?usp=sharing)
-    + [JavaScript. Professional Development of Web Interfaces](https://drive.google.com/file/d/1UYMALDD2NSbz1fKPFsbnBo-QOxuKh-UW/view?usp=sharing)
+    + [JavaScript. Professional Development of Web Interfaces](https://drive.google.com/file/d/1Q2fuV-0y0LMi0T_3pxZac7EDRC5CZvj6/view?usp=sharing)
 
 ### Projects
 * [My first project](https://github.com/chspeth/605741-device-32). Online store of devices with two pages. Available for watching it on github pages. You'll find the second page in the Catalog > Selfie monopods.

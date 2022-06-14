@@ -1,1 +1,281 @@
-произвольное содержимое
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 21px;
+  background-color: #ffffff;
+  color: #7a6545;
+  overflow-x: hidden;
+}
+
+.page-header {
+  box-sizing: border-box;
+  min-height: 50px;
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: #ffe5b4;
+  border: 1px solid #000000;
+  border-bottom: none;
+}
+
+.navigation {
+  margin-top: 14px;
+  width: 570px;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.navigation-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  font-size: 19px;
+}
+
+.navigation-link {
+  display: block;
+  color: #7d6246;
+  text-decoration: none;
+  padding-left: 15px;
+  border-left: 2px solid transparent;
+}
+
+.navigation-link:hover {
+  border-color: #022698;
+}
+
+.page-main {
+  box-sizing: border-box;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid #000000;
+  border-top: none;
+}
+
+.page-main a {
+  color: #7a6545;
+  text-decoration: none;
+}
+
+.left-column {
+  font-size: 15px;
+  position: relative;
+  width: 325px;
+  padding-left: 25px;
+  background-image: linear-gradient(to bottom, transparent 355px, #ffe5b4 355px);
+}
+
+.right-column {
+  width: 674px;
+  text-align: center;
+}
+
+.section-title {
+  color: #7d6246;
+  font-size: 19px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.right-column .section-title {
+  font-size: 21px;
+}
+
+.page-title {
+  margin-top: 280px;
+  margin-bottom: 15px;
+  margin-left: 35px;
+  font-size: 24px;
+}
+
+.page-subtitle {
+  margin-top: 0;
+  margin-bottom: 15px;
+  margin-left: 17px;
+  font-size: 22px;
+}
+
+.profile-pic {
+  position: absolute;
+  top: 25px;
+  left: 65px;
+  width: 210px;
+  height: 210px;
+  border: 10px solid #ffe5b4;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contact-section {
+  padding-top: 5px;
+}
+
+.contact-section::before {
+  z-index: -1;
+  display: block;
+  position: absolute;
+  content: "";
+  top: 30px;
+  left: 73px;
+  width: 215px;
+  height: 215px;
+  border-radius: 50%;
+  background-color: #ffe5b4;
+}
+
+.contact-list,
+.education-list,
+.projects-list,
+.navigation-list {
+  list-style-type: none;
+}
+
+.list {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.list li {
+  margin-bottom: 8px;
+}
+
+.profile-title {
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+
+.paragraph-text {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+
+.education-title {
+  margin-bottom: 20px;
+}
+
+.education-list {
+  padding-left: 0;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.certificate-pic {
+  width: 190px;
+  height: 260px;
+  object-fit: cover;
+}
+
+.projects-section {
+  padding-top: 15px;
+}
+
+.projects-list {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.projects-list a:hover {
+  text-decoration: underline;
+}
+
+.projects-list a:active {
+  color: #022698;
+}
+
+.projects-list a:focus {
+  color: #000000;
+}
+
+.projects-item:not(:last-child) {
+  margin-bottom: 25px;
+  border-bottom: 2px dotted #022698;
+}
+
+.project-preview {
+  width: 450px;
+  height: 255px;
+  object-fit: scale-down;
+}
+
+.example-text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.example-section details {
+  cursor: pointer;
+}
+
+.example-section summary {
+  margin-bottom: 20px;
+}
+
+.example-section summary:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.example-section pre {
+  text-align: left;
+  padding-left: 15px;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #f6f8fa;
+  font-size: 13px;
+  color: #000000;
+}
+
+.page-footer {
+  box-sizing: border-box;
+  max-width: 1024px;
+  min-height: 50px;
+  margin: 0 auto;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  background-color: #1a1f32;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.footer-link {
+  text-decoration: none;
+  display: block;
+}
+
+.footer-text {
+  display: block;
+  padding-top: 6px;
+  color: #ffffff;
+}
+
+.footer-gh-link {
+  position: relative;
+}
+
+.footer-gh-link svg {
+  position: absolute;
+}
+
+.footer-gh-text {
+  padding-left: 33px;
+}

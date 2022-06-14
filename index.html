@@ -1,83 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CV: Valeriya Polyanskaya</title>
-    </head>
-    <body>
-        <main>
-            <h1>Valeriya Polyanskaya</h1>
-            <h2>Junior Frontend Developer</h2>
-            <aside>
-              <section>
-                <h3>Contact</h3>
-                <ul>
-                  <li><b>Phone:</b> <a href="tel:+79153202909">+7 915 320 2909</a></li>
-                  <li><b>E-mail:</b> <a href="mailto:sp.ether@yandex.ru">sp.ether@yandex.ru</a></li>
-                  <li><b>Telegram:</b> <a href="https://t.me/chspeth">@chspeth</a></li>
-                  <li><b>GitHub:</b> <a href="https://github.com/chspeth">chspeth</a></li>
-                </ul>
-              </section>
-              <section>
-                <h3>Skills</h3>
-                <ul>
-                  <li>HTML5, CSS3 (BEM, adaptive layout)</li>
-                  <li>JavaScript</li>
-                  <li>Less</li>
-                  <li>Git, GitHub</li>
-                </ul>
-              </section>
-              <section>
-                <h3>Languages</h3>
-                <ul>
-                  <li><b>Russian</b> native</li>
-                  <li><b>English</b> intermediate. I’m taking classes to improve my skills also.</li>
-                </ul>
-              </section>
-            </aside>
-            <div>
-              <section>
-                <h3>Profile</h3>
-                <p>Ex-SEO specialist, future Frontend Developer.<br>
-                  I think I can’t live without new information to keep my brain fit. That’s why I studied chemistry at university and now my interests are science, medicine, technologies, etc. I’m a quick learner who is willing and able to ramp up to speed in learning the job and I believe I can become a useful member of a team, interested in developing a strong player.</p>
-              </section>
-              <section>
-                <h3>Code example</h3>
-                <p>You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.<br>
-                  Array can contain numbers or strings. X can be either.<br>
-                  Return true if the array contains the value, false if not.</p>
-                  <pre>
-                    <code>
-                    function check(a, x) {
-                      return a.includes(x) ? true : false;
-                    }
-                  </code>
-                </pre>
-              </section>
-              <section>
-                <h3>Education</h3>
-                HtmlAcademy:<br>
-                <ul>
-                  <li>HTML & CSS
-                    <ul>
-                      <li>Professional Website Coding</li>
-                      <li>Adaptive Website Coding and Automatization</li>
-                    </ul>
-                  </li>
-                  <li>JavaScript. Professional Development of Web Interfaces</li>
-                </ul>
-              </section>
-              <section>
-                <h3>Projects</h3>
-                <ul>
-                  <li><a href="https://github.com/chspeth/605741-device-32">My first project</a>. Online store of devices with two pages. Available for watching it on github pages. You’ll find the second page in the Catalog > Selfie monopods.</li>
-                  <li><a href="https://github.com/chspeth/605741-cat-energy-24">The second website</a>. Multi-page website, adaptive for phones and tablets. Not finished yet.</li>
-                  <li><a href="https://github.com/chspeth/605741-keksobooking-25">The third and my favorite</a>. Concentrated mostly on JavaScript to get all the forms and filters working. Available on github pages.</li>
-                </ul>
-              </section>
-            </div>
-        </main>
-        <footer></footer>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV: Valeriya Polyanskaya</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#skills">Hard & soft skills</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#projects">My projects</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#example">Code example</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="page-main">
+      <aside class="left-column">
+        <h1 class="page-title section-title">Valeriya Polyanskaya</h1>
+        <h2 class="page-subtitle section-title">Junior Frontend Developer</h2>
+        <img class="profile-pic" src="./assets/img/profile.JPG" alt="Profile photo">
+        <section class="contact-section">
+          <h3 class="section-title">Contact</h3>
+          <ul class="contact-list list">
+            <li><b>Phone:</b> <a href="tel:+79153202909">+7 915 320 2909</a></li>
+            <li><b>E-mail:</b> <a href="mailto:sp.ether@yandex.ru">sp.ether@yandex.ru</a></li>
+            <li><b>Telegram:</b> <a href="https://t.me/chspeth">@chspeth</a></li>
+            <li><b>GitHub:</b> <a href="https://github.com/chspeth">chspeth</a></li>
+          </ul>
+        </section>
+        <section>
+          <h3 class="section-title" id="skills">Skills</h3>
+          <ul class="list">
+            <li>HTML5, CSS3 (BEM, adaptive layout)</li>
+            <li>JavaScript</li>
+            <li>Less</li>
+            <li>Git, GitHub</li>
+          </ul>
+        </section>
+        <section>
+          <h3 class="section-title">Languages</h3>
+            <ul class="list">
+              <li><b>Russian</b> native</li>
+              <li><b>English</b> intermediate. I’m taking classes to improve my skills also.</li>
+            </ul>
+        </section>
+      </aside>
+      <div class="right-column">
+        <section class="profile-section">
+          <h3 class="profile-title section-title">Profile</h3>
+          <p class="paragraph-text">Ex-SEO specialist, future Frontend Developer.<br>
+             I think I can’t live without new information to keep my brain fit. That’s why I studied chemistry at university and now my interests are science, medicine, technologies, etc. I’m a quick learner who is willing and able to ramp up to speed in learning the job and I believe I can become a useful member of a team, interested in developing a strong player.</p>
+        </section>
+        <section>
+          <h3 class="education-title section-title">Education</h3>
+            <ul class="education-list">
+              <li class="education-item">
+                <a href="https://drive.google.com/file/d/1_Jw03-owwEaIGT6AIAVKKeYJE7YehkXg/view?usp=sharing" target="_blank">
+                  <img class="certificate-pic" src="./assets/img/first-certificate.png" alt="Professional Website Coding">
+                </a>
+              </li>
+              <li class="education-item">
+                <a href="https://drive.google.com/file/d/1mMgMyGl1JfDCPuzZ9yuDmx-n8Y6_WCmE/view?usp=sharing" target="_blank">
+                  <img class="certificate-pic" src="./assets/img/second-certificate.png" alt="Adaptive Website Coding and Automatization">
+                </a>
+              </li>
+              <li class="education-item">
+                <a href="https://drive.google.com/file/d/1Q2fuV-0y0LMi0T_3pxZac7EDRC5CZvj6/view?usp=sharing" target="_blank">
+                  <img class="certificate-pic" src="./assets/img/third-certificate.png" alt="Professional Development of Web Interfaces">
+                </a>
+              </li>
+            </ul>
+        </section>
+        <section class="projects-section">
+          <h3 class="section-title" id="projects">Projects</h3>
+            <ul class="projects-list">
+              <li class="projects-item">
+                <figure>
+                  <a href="https://github.com/chspeth/605741-device-32" target="_blank">
+                    <img class="project-preview" src="./assets/img/device-preview.png" alt="First project: Device">
+                  </a>
+                  <figcaption>
+                    <a href="https://github.com/chspeth/605741-device-32">My first project</a>. <br>Online store of devices with two pages. Available for watching it on github pages. You’ll find the second page in the Catalog > Selfie monopods.
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="projects-item">
+                <figure>
+                  <a href="https://github.com/chspeth/605741-cat-energy-24" target="_blank">
+                    <img class="project-preview" src="./assets/img/cat-energy-preview.png" alt="Second project: Cat Energy">
+                  </a>
+                  <figcaption>
+                    <a href="https://github.com/chspeth/605741-cat-energy-24">The second website</a>. <br>Multi-page website, adaptive for phones and tablets. Not finished yet (in process).
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="projects-item">
+                <figure>
+                  <a href="https://github.com/chspeth/605741-keksobooking-25" target="_blank">
+                    <img class="project-preview" src="./assets/img/keksobooking-preview.png" alt="Third project: Keksobooking">
+                  </a>
+                  <figcaption>
+                    <a href="https://github.com/chspeth/605741-keksobooking-25">The third and my favorite</a>. <br>Concentrated mostly on JavaScript to get all the forms and filters working. Available on github pages.
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+        </section>
+        <section class="example-section">
+          <h3 class="section-title" id="example">Code example</h3>
+          <details>
+            <summary>Click here to see my code from Keksobooking project</summary>
+            <pre>
+              <code data-language="JavaScript">
+// alert.js
+
+const ALERT_TIME = 5000;
+
+const alertContainer = document.querySelector('#error').content.querySelector('.error');
+const alert = alertContainer.cloneNode(true);
+const errorButton = alert.querySelector('.error__button');
+document.body.append(alert);
+alert.style.display = 'none';
+
+const onAlertEscKeydown = (evt) => {
+  if (isEscapeKey(evt)) {
+    evt.preventDefault();
+    hideAlert();
+  }
+};
+
+function showAlert () {
+  alert.style.display = 'block';
+  document.addEventListener('keydown', onAlertEscKeydown);
+  alert.addEventListener('click', () => {
+    hideAlert();
+  });
+
+  setTimeout(() => {
+    hideAlert();
+  }, ALERT_TIME);
+}
+
+function hideAlert () {
+  alert.style.display = 'none';
+  document.removeEventListener('keydown', onAlertEscKeydown);
+}
+
+errorButton.addEventListener('click', () => {
+  hideAlert();
+});
+
+const showFailMessage = (message) => {
+  const failMessageContainer = document.createElement('div');
+  failMessageContainer.style.zIndex = '100';
+  failMessageContainer.style.position = 'absolute';
+  failMessageContainer.style.left = '0';
+  failMessageContainer.style.top = '0';
+  failMessageContainer.style.right = '0';
+  failMessageContainer.style.padding = '10px 3px';
+  failMessageContainer.style.fontSize = '30px';
+  failMessageContainer.style.textAlign = 'center';
+  failMessageContainer.style.backgroundColor = 'red';
+
+  failMessageContainer.textContent = message;
+
+  document.body.append(failMessageContainer);
+
+  setTimeout(() => {
+    failMessageContainer.remove();
+  }, ALERT_TIME);
+};
+              </code>
+            </pre>
+          </details>
+        </section>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <a class="footer-link footer-gh-link" href="https://github.com/chspeth" target="_blank">
+        <svg width="30px" height="30px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="icon" fill="#ffffff">
+          <path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"/>
+        </svg>
+        <span class="footer-text footer-gh-text">My GitHub</span>
+      </a>
+      <span class="footer-text">© 2022</span>
+      <a class="footer-link" href="https://rs.school/js/" target="_blank">
+        <img src="./assets/img/rs_school.svg" alt="Rsschool Icon" width="73" height="26">
+      </a>
+    </footer>
+  </body>
 </html>
